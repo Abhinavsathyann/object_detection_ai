@@ -54,4 +54,10 @@ object_detection_ai/
 ```bash
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
+'''
 
+### 2. Install dependencies
+pip install opencv-python numpy pillow ttkthemes
+
+
+⚠️ Note: tkinter is included in standard Python, no separate install needed.
