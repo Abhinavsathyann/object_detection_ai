@@ -44,3 +44,14 @@ object_detection_ai/
 ├─ main.py # Entry point to run the app
 └─ README.md # This documentation
 
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone <https://github.com/Abhinavsathyann/object_detection_ai>
+cd object_detection_ai
+
