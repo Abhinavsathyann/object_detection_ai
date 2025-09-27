@@ -47,6 +47,13 @@ object_detection_ai/
 
 ---
 
+| Issue                                          | Solution                                                          |
+| ---------------------------------------------- | ----------------------------------------------------------------- |
+| `ModuleNotFoundError: config`                  | Ensure `config.py` exists in the project root                     |
+| `IndexError: invalid index to scalar variable` | Update `detector.py` with OpenCV 4.12+ fix                        |
+| App hangs / slow FPS                           | Use YOLOv3-tiny, reduce frame size, skip frames, or enable GPU    |
+| Weights not loading                            | Download weights and cfg files and place them in `models/` folder |
+
 
 ### 1. Clone the repository
 
@@ -54,6 +61,7 @@ object_detection_ai/
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
 '''
+
 
 
 
