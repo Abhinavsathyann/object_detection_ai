@@ -46,14 +46,7 @@ object_detection_ai/
 
 
 ---
-3. Download Models
 
-YOLOv3-tiny weights: Download Here
-
-YOLOv3-tiny config: Download Here
-
-COCO class names: Download Here
-## Installation
 
 ### 1. Clone the repository
 
@@ -62,9 +55,5 @@ git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
 '''
 
-### 2. Install dependencies
-pip install opencv-python numpy pillow ttkthemes
 
-
-⚠️ Note: tkinter is included in standard Python, no separate install needed.
 
