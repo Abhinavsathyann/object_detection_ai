@@ -46,7 +46,13 @@ object_detection_ai/
 
 
 ---
+3. Download Models
 
+YOLOv3-tiny weights: Download Here
+
+YOLOv3-tiny config: Download Here
+
+COCO class names: Download Here
 ## Installation
 
 ### 1. Clone the repository
@@ -61,3 +67,4 @@ pip install opencv-python numpy pillow ttkthemes
 
 
 ⚠️ Note: tkinter is included in standard Python, no separate install needed.
+
