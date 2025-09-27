@@ -26,23 +26,25 @@ The application supports:
 
 ---
 
-## Project Structure
 object_detection_ai/
 │
-├─ core/
-│ └─ detector.py # YOLO detection logic with OpenCV DNN
+├── main.py                # Entry point to run the app
+├── config.py              # Configuration: paths, thresholds
+├── README.md              # Project documentation
 │
-├─ ui/
-│ └─ gui.py # Tkinter GUI code
+├── models/                # All YOLO-related models
+│   ├── yolov3-tiny.cfg
+│   ├── yolov3-tiny.weights
+│   └── coco.names
 │
-├─ models/
-│ ├─ yolov3-tiny.weights
-│ ├─ yolov3-tiny.cfg
-│ └─ coco.names
+├── core/                  # Core logic for object detection
+│   └── detector.py        # YOLO detection class
 │
-├─ config.py # Configuration file (paths, thresholds)
-├─ main.py # Entry point to run the app
-└─ README.md # This documentation
+├── ui/                    # GUI components
+│   └── gui.py             # Tkinter GUI with animations
+│
+└── assets/                # Optional: screenshots or GIFs for README
+    └── preview.png        # Example image for README preview
 
 
 ---
@@ -70,4 +72,5 @@ This project is open-source and available under the MIT License.
 ```bash
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
+
 
