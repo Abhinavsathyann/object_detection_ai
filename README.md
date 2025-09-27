@@ -55,12 +55,20 @@ object_detection_ai/
 | Weights not loading                            | Download weights and cfg files and place them in `models/` folder |
 
 
+## Dependencies
+Python 3.10+
+OpenCV (opencv-python)
+NumPy (numpy)
+Pillow (PIL)
+TTKTHeemes (ttkthemes)
+
 ### 1. Clone the repository
 
 ```bash
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
 '''
+
 
 
 
