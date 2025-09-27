@@ -62,7 +62,7 @@ NumPy (numpy)
 Pillow (PIL)
 TTKTHeemes (ttkthemes)
 
-##License
+## License
 This project is open-source and available under the MIT License.
 
 ### 1. Clone the repository
@@ -70,3 +70,4 @@ This project is open-source and available under the MIT License.
 ```bash
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
+
