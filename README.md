@@ -27,4 +27,20 @@ The application supports:
 ---
 
 ## Project Structure
+object_detection_ai/
+│
+├─ core/
+│ └─ detector.py # YOLO detection logic with OpenCV DNN
+│
+├─ ui/
+│ └─ gui.py # Tkinter GUI code
+│
+├─ models/
+│ ├─ yolov3-tiny.weights
+│ ├─ yolov3-tiny.cfg
+│ └─ coco.names
+│
+├─ config.py # Configuration file (paths, thresholds)
+├─ main.py # Entry point to run the app
+└─ README.md # This documentation
 
