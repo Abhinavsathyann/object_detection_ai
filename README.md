@@ -1,6 +1,7 @@
 @"
 # Object Detection AI (Python)
 
+
 ![Object Detection](assets/preview.png)
 
 ## Overview
@@ -72,5 +73,6 @@ This project is open-source and available under the MIT License.
 ```bash
 git clone <https://github.com/Abhinavsathyann/object_detection_ai>
 cd object_detection_ai
+
 
 
